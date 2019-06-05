@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dm-eureka-server" />
+        <module name="dm-gateway-zuul" />
+        <module name="dm-hystrix-dashboard" />
+        <module name="dm-sleuth-server" />
+        <module name="dm-turbine-server" />
+        <module name="dm-user-consumer" />
+        <module name="dm-user-consumer-second" />
+        <module name="dm-user-provider" />
+        <module name="dm-user-provider-second" />
+        <module name="springcloud" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ribbon-without-eureka-consumer" target="1.8" />
+      <module name="ribbon-without-eureka-provider1" target="1.8" />
+      <module name="ribbon-without-eureka-provider2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dm-eureka-server" options="" />
+      <module name="dm-gateway-zuul" options="" />
+      <module name="dm-hystrix-dashboard" options="" />
+      <module name="dm-sleuth-server" options="" />
+      <module name="dm-turbine-server" options="" />
+      <module name="dm-user-consumer" options="" />
+      <module name="dm-user-provider" options="" />
+      <module name="ribbon-without-eureka-consumer" options="" />
+      <module name="ribbon-without-eureka-provider1" options="" />
+      <module name="ribbon-without-eureka-provider2" options="" />
+    </option>
+  </component>
+</project>
