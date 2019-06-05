@@ -1,0 +1,15 @@
+server:
+  port: 7778
+spring:
+  application:
+    name: dm-turbine-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:123456@localhost:7777/eureka
+  instance:
+    prefer-ip-address: true
+turbine:
+  cluster-name-expression: "'default'"
+  combine-host-port: true
+  app-config: dm-user-consumer,dm-user-consumer-second
